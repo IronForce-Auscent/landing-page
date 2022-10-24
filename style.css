@@ -1,168 +1,100 @@
-/* Header Sector */
-
-.header-flex {
-  background: #1F2937;
-  padding: 20px;
-  gap: 5px;
+/* Header Segment */
+.top-header {
+  background-color: darkcyan;
   display: flex;
-}
-.link-flex {
-  background: #1F2937;
-  padding: 5px;
-  gap: 10px;
-  display: flex;
-}
-.header-flex div {
-  color:  #F9FAF8;
-  height: 30px;
-  flex: 1;
-  font-size: 24px;
-  text-align: center;
-}
-.header-flex .box-one {
-  flex: .5 1 0%;
-}
-.link-flex div {
-  color: #F9FAF8;
-  height: 30px;
-  flex: 1;
-  font-size: 18px;
-  text-align: center;
-}
-
-/* Main Section 1 */
-.section-one {
-  background: #1F2937;
-  height: 200px;
-  padding: 70px;
-  display: flex;
-  justify-content: space-between;
-}
-.left-side {
-  display: flex;
-}
-.section-one .main-text {
-  color: #F9FAF8;
-  font-size: 48px;
-  flex: 1;
-}
-.section-one .secondary-text {
-  color: #E5E7EB;
-  font-size: 18px;
-  flex: 1;
-}
-.button {
-  background-color: #3882F6;
-  color: #E5E7EB;
-  border-radius: 12px;
-  font-size: 16px;
-  padding: 12px 28px;
-}
-.right-side {
-  display: flex;
-  gap: 100px;
-}
-
-.container {
-  width: 400px;
-  height: 360px;
-}
-.container img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Main Section 2 */
-.section-two {
-  height: 300px;
-  padding: 30px;
-}
-.section-two .title {
-  font-size: 36px;
-  color: #1F2937;
-  text-align: center;
-  flex: 1;
-}
-.section-two .random-pics {
-  padding: 40px;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  gap: 60px;
-}
-
-.random-pics div {
-  width: 150px;
   height: 150px;
-  border-radius: 16px;
-  border: 4px solid blue;
+}
+.top-header .page-intro {
+  font-size: 40px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  flex: 1;
+}
+.top-header .filler {
+  /* border: 4px solid red; */
+  flex: 1;
 }
 
-/* Main Section 3 */
-.section-three {
-  background-color: #E5E7EB;
-  max-width: 100%
-  padding: 100px;
-  justify-space: center;
-  align-items: center;
-  text-align: center;
+.contents-page {
+  height: 150px;
   display: flex;
+  background: darkcyan;
 }
-.section-three .quote {
-  text-align: center;
-  font-size: 36px;
-  color: #1F2937;
-}
-.section-three .speaker {
-  text-align: right;
+.contents-page .option {
   font-size: 30px;
-  color: #1F2937;
-}
-.section-three .empty-space {
-  width: 200px;
-  flex: .75;
+  margin: auto;
+  text-align: center;
+  color: white;
+  flex: 1;
+  /* border: 4px solid red; */
 }
 
-/* Main Section Four */
-.section-four {
-  padding: 16px;
-  border: 4px solid blue;
-  gap: 8px;
-  height: 400px;
-}
-.section-four .top-bottom {
-  border: 4px solid orange;
-  height: 120px;
-}
-.section-four .center {
-  border: 4px solid red;
-  height: 150px;
-  display: flex;
-}
-.center .left-right {
-  border: 4px solid green;
-  height: 150px;
-  width: 150px;
-  flex: .5;
-}
-.center .cta {
-  border: 4px solid skyblue;
-  background:  skyblue;
-  height: 150px;
-  flex: 1;
-  display: flex;
-}
-.center .quote-phrase {
-  border: 4px solid yellow;
+.contents-page .filler {
+  /* border: 4px solid red; */
   flex: 1;
 }
-.center .quote {
+.filler-space {
+  background-color:darkcyan;
+}
+
+/* Introduction Segment */
+.introduction {
+  display: flex;
+  padding: 10px;
+}
+.introduction .text-intro {
+  flex: 1;
+  font-size: 20px;
+  /* border: 3px solid red; */
+}
+.introduction .img-intro {
+  flex: 1;
+  /* border: 3px solid red; */
+}
+img {
+  display: block;
+  max-width: 250px;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  border: 2px solid yellow;
+}
+
+.text-intro .header {
+  font-size: 30px;
+}
+
+.thicc-gap {
+  height: 100px;
+  border: 3px solid green;
+}
+
+/* Achievements Segment */
+/* I mean, its more than just achievements, but eh */
+
+.personal-achievements {
+  display: flex;
+  border: 3px solid red;
+  height: 300px;
+}
+
+.personal-achievements .subtext {
+  flex: 1;
+  border: 3px solid green; 
+  font-size: 20px;
+  margin: auto;
   text-align: center;
-  align-items: center;
-  justify-space: center;
 }
-.center .signup-button {
-  border: 4px solid red;
+
+.personal-achievements .header {
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
   flex: 1;
+  border: 2px solid brown;
 }
